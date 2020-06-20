@@ -1,0 +1,55 @@
+.step table{
+margin-top: 3%;
+width: 100%;
+font-size: 30px;
+text-align: center;
+border-collapse: collapse;
+font-weight: bold;
+font-family: "微軟正黑體";
+color: white;
+}
+.step td{
+border: 3px solid black;
+background-color: #AAAAAA;
+}
+.car form{
+border: 3px solid black;
+margin: 50px 100px 100px 100px;
+}
+.car form table{
+margin: 100px 100px 100px 220px;
+width: 75%;
+border-collapse: collapse;
+text-align: center;
+font-size: 25px;
+font-weight: bold;
+font-family: "微軟正黑體";
+}
+.car form table td{
+border: 3px solid black;
+}
+.counter{
+padding: 0px;
+width: 90px;
+}
+.counter li{
+float:left;
+list-style-type:none;
+text-align:center;
+width: 30px;
+margin-bottom: 30px;
+}
+.counter input{
+border: none;
+font-size: 20px;
+color: white;
+background-color: black;
+border-radius: 5px;
+}
+.total{
+font-size: 30px;
+font-weight: bold;
+font-family: "微軟正黑體";
+margin-left: 80%;
+margin-bottom: 10px;
+}
