@@ -1,0 +1,54 @@
+.formtitle{
+width: 20%;
+font-size: 40px;
+font-weight: bold;
+font-family: "微軟正黑體";
+margin: 50px 46.7% 0px;
+}
+hr{
+border: 0px;
+height: 4px;
+width: 45%;
+background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+}
+.ani{
+  position: relative;
+  animation: mymove 7s infinite;
+
+}
+#ani1{
+	animation-timing-function: linear;
+	overflow: hidden;
+}
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 100%;}
+}
+.searchform p{
+font-size: 40px;
+font-weight: bold;
+font-family: "微軟正黑體";
+margin-left: 46.7%;
+margin-bottom: 10px;
+}
+.searchform input{
+	font-size: 30px;
+height: 30px;
+margin-top: 20px;
+margin-left: 35.5%;
+width: 30%;
+}
+.searchform input:focus {
+border: 3px solid #555;
+}
+.searchform button{
+	text-align: center;
+	border-radius: 20px;
+	padding: 20px;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+	background-color: black; 
+	margin-left: 48.5%;
+	margin-bottom: 50px;
+}
