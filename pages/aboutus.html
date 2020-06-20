@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="../assets/css/aboutus.css">
+		<link rel="stylesheet" type="text/css" href="../assets/css/fixed.css">
+		<title>關於我們</title>
+	</head>
+	<body>
+		 <div class="head">
+            <div class="title">
+                <img src="../assets/images/title.png">
+            </div>
+            <div class="title2">
+                <a href="../index.html" style="text-decoration: none; color:white;">九日電痲雞</a>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="../index.html #hot" style=" color: white; text-decoration: none;">熱門商品</a></li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropbtn">購物中心</button>
+                            <div class="dropdown-content">
+                                <a href="shop.html">購物中心</a>
+                                <a href="search.html">訂單查詢</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="member.html" style=" color: white; text-decoration: none;">會員中心</a></li>
+                    <li><a href="aboutus.html" style=" color: white; text-decoration: none;">關於我們</a></li>
+                    <li><a href="shoppingcar.html" style=" color: white; text-decoration: none;">購物車</a></li>
+                    <li><button onclick="document.getElementById('id01').style.display='block'" style="width:100%;background-color:black;
+                        color:white;padding:0px 0px 0px 50px;border: none;cursor: pointer; font-size: 20px; font-weight: bold; font-family:Microsoft JhengHei; ">登入</button>
+                        <div id="id01" class="modal">
+                            
+                            <form class="modal-content animate" action="/action_page.php" method="post" style="background-color: black; width: 70%; padding: 0px;">
+                                <div class="imgcontainer">
+                                    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="" style="color: white;">&times;</span>
+                                    <img src="../assets/images/title.png" alt="Avatar" class="avatar">
+                                </div>
+                                <div class="container2">
+                                    <label for="uname"><b>帳號</b></label>
+                                    <input type="text" placeholder="Enter Username" name="uname" required>
+                                    <label for="psw"><b>密碼</b></label>
+                                    <input type="password" placeholder="Enter Password" name="psw" required style="margin-bottom: 100px;">
+                                    <button type="submit" style="border: 3px solid white; border-radius: 20px; width: 20%; margin-left: 39%; padding:   20px;font-size: 20px;font-weight: bold; font-family:Microsoft JhengHei;">登入</button>&nbsp;&nbsp;
+                                    <label>
+                                        <input type="checkbox" checked="checked" name="remember" style="margin: 0px;"> 記住我
+                                    </div>
+                                </form>
+                            </div>
+                            <script>
+                            // Get the modal
+                            var modal = document.getElementById('id01');
+                            // When the user clicks anywhere outside of the modal, close it
+                            window.onclick = function(event) {
+                            if (event.target == modal) {
+                            modal.style.display = "none";
+                            }
+                            }
+                        </script></li>
+                    </ul>
+                </div>
+            </div>
+		<div class="main">
+			<div>
+			<div class="person">
+				<div class="personphoto">
+					<img src="../assets/images/samuel.png">
+				</div>
+				<div class="personname">
+					<p class="bigname">于詩昱</p>
+					購物中心、關於我們、商品頁面、<br>管理者頁面
+					<hr>
+					興趣:打羽球、扛推羅騰旭<br>
+					生日:2000/01/18
+				</div>
+				<div class="persontalk1">
+					<div class="dialog-box">
+						<span class="bot"></span>					
+					</div>
+					<div class="talkbubble fade">
+						這次期末換寫前端發現簡單很多，上學期寫後端都不知道在幹嘛，但雖然簡單，其實還是有很多東西要再多加強，尤其是js動畫，很容易出錯也不知道怎麼改，希望大三大四期末專題時可以比現在更進步，寫出更好的網站。
+					</div>
+				</div>
+			</div>
+			<div class="person">
+				<div class="personphoto">
+					<img src="../assets/images/lts.png">
+				</div>
+				<div class="personname">
+					<p class="bigname">羅騰旭</p>
+					首頁、購物車、會員中心、訂單查詢、<br>登入頁面
+					<hr>
+					興趣:看電影<br>
+					生日:2000/06/09
+				</div>
+				<div class="persontalk2">
+					<div class="dialog-box">
+						<span class="bot"></span>					
+					</div>
+					<div class="talkbubble fade">
+						因為上學期網程沒有學好的緣故，加上本身對前端也比較有興趣，所以上每堂課時都會比較認真。對現在正在做的期末專題來說，也比上學期來的要輕鬆很多，雖然在js方面有許多問題，但還是會繼續努力的。未來也會繼續精進自己，希望出社會能從事相關產業。
+					</div>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div class="person">
+				<div class="personphoto">
+					<img src="../assets/images/nick.png">
+				</div>
+				<div class="personname">
+					<p class="bigname">張仲均</p>
+					會員中心、商品頁面、購物車、留言板
+					<hr>
+					興趣:打籃球<br>
+					生日:2000/03/09
+				</div>
+				<div class="persontalk3 ">
+					<div class="dialog-box">
+						<span class="bot"></span>					
+					</div>
+					<div class="talkbubble fade">
+						後段跟前端比起來困難了許多，前端的想法可以馬上顯示在螢幕上，但是後端的語法卻常常讓我不知該如何下手，但是我覺得這次的專題進行比之前還要快速，我想是因為做過了一次，知道2組需要的東西才能快速完成，希望可以學以致用。
+					</div>
+				</div>
+			</div>
+			<div class="person">
+				<div class="personphoto">
+					<img src="../assets/images/yang.png">
+				</div>
+				<div class="personname">
+					<p class="bigname">陳宇揚</p>
+					商品頁面、後台管理中心
+					<hr>
+					興趣:玩運彩<br>
+					生日:2000/01/03
+				</div>
+				<div class="persontalk4">
+					<div class="dialog-box">
+						<span class="bot"></span>					
+					</div>
+					<div class="talkbubble fade">
+						這學期做了後端，相較於上學期的前端，是截然不同的東西，對我來說，相較於前端，是比較困難的，不過還是有完成，在這次的專題做起來，比上次順利許多，大概是因為上學期彼此做過前後端，所以更加了解需要什麼東西，才能圓滿完成。
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		 <div class="footer">
+                <div class="nav2">
+                    <ul>
+                        <li><a href="../index.html #hot" style=" color: white;text-decoration: none;">熱門商品</a></li>
+                        <li><a href="shop.html" style=" color: white;text-decoration: none;">購物中心</a></li>
+                        <li><a href="member.html" style=" color: white;text-decoration: none;">會員中心</a></li>
+                        <li><a href="aboutus.html" style=" color: white;text-decoration: none;">關於我們</a></li>
+                        <li><a href="search.html" style=" color: white;text-decoration: none;">訂單查詢</a></li>
+                        <li><a href="shoppingcar.html" style=" color: white;text-decoration: none;">購物車</a></li>
+                    </ul>
+                    <br><br>
+                    <div class="contact">
+                        聯絡我們<br><br>
+                        電話 : 0948561287<br>
+                        E-mail : dcc@gmail.com<br>
+                        地址 : 新北市三重區重陽路三段103號<br><br>
+                        © 2019 EASTKING
+                    </div>
+                </div>
+            </div>
+		<script>
+			$(window).on("load",function() {
+  $(window).scroll(function() {
+    var windowBottom = $(this).scrollTop() + $(this).innerHeight();
+    $(".fade").each(function() {
+      /* Check the location of each desired element */
+      var objectBottom = $(this).offset().top + $(this).outerHeight();
+      
+      /* If the element is completely within bounds of the window, fade it in */
+      if (objectBottom < windowBottom) { //object comes into view (scrolling down)
+        if ($(this).css("opacity")==0) {$(this).fadeTo(500,1);}
+      } else { //object goes out of view (scrolling up)
+        if ($(this).css("opacity")==1) {$(this).fadeTo(500,0);}
+      }
+    });
+  }).scroll(); //invoke scroll-handler on page-load
+});
+		</script>
+	</body>
+</html>
