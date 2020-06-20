@@ -1,0 +1,236 @@
+body{
+    margin: 0px;
+    font-family: "微軟正黑體";
+    font-weight: bold;
+}
+
+.shoptitle1{
+    font-family: "微軟正黑體";
+    font-weight: bold;
+    text-align: center;
+    margin-top: 70px;
+}
+hr.style-two {
+    border: 0;
+    height: 2px;
+    width: 30%;
+    background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+}
+.emjt{
+    margin-top: 4%;
+    display: flex;
+    text-align: center;
+    margin-bottom: 150px;
+}
+.emjt input{
+    margin-top: 10px;
+    padding: 5px;
+    border-radius:10px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'xingkai';
+    font-weight: bold;
+    outline: none;
+    box-shadow: 7px 7px 0px #006000;
+}
+#emjt1{
+    margin-right: 30px;
+}
+.table1{
+    margin-left:160px;
+    width:429px;
+}
+.table2{
+    margin-left:160px;
+    width:429px;
+}
+.table3{
+    margin-left:160px;
+    width:429px;
+}
+.table1 img{
+    height: 330px;
+}
+.table2 img{
+    height: 330px;
+}
+.table3 img{
+    height: 330px;
+}
+.table4{
+    margin-left: 160px;
+    width:429px;
+}
+.table5{
+    margin-left:160px;
+    width:429px;
+}
+.table6{
+    margin-left:160px;
+    width:429px;
+}
+.table4 img{
+    width: 400px;
+}
+.table5 img{
+    height: 300.59px;
+}
+.table6 img{
+    height: 300.59px;
+}
+.other1{
+    margin-left:160px;
+    width:429px;
+}
+.other2{
+    margin-left:160px;
+    width:429px;
+}
+.other3{
+    margin-left:160px;
+    width:429px;
+}
+.other1 img{
+    width: 400px;
+}
+.other2 img{
+    width: 400px;
+}
+.other3 img{
+    width: 400px;
+}
+.footer{
+font-size: 20px;
+height: 350px;
+background-color:black;
+font-family:"微軟正黑體";
+font-weight: bold;
+}
+.nav2{
+margin-left: 21.5%;
+height: 20%;
+text-align: center;
+}
+.nav2 ul{
+height: 100%;
+}
+.nav2 li{
+float: left;
+list-style-type:none;
+padding: 10px 10px 10px 70px;
+color: white;
+margin-top:30px;
+text-align: center;
+}
+.contact{
+height: 100%;
+color: white;
+margin-left: -390px;
+}
+.proname{
+    font-weight:bold;
+    font-family: 'xingkai';
+    font-size: 25px;
+}
+.wrongprice{
+    font-style: italic;
+    font-size: 20px;
+    text-decoration: line-through;
+}
+.rightprice{
+    font-style: italic;
+    font-size: 20px;
+    color: red;
+    padding-left: 10px;
+}
+@font-face{
+    font-family: 'xingkai';
+    src: url('../fontfamily/xingkai.otf') format("truetype");
+}
+
+#cf1_image {
+  margin:0 auto;
+  height:330px;
+  transition: background-image 1s ease-in-out;
+  background-image:url("../images/tablee11.png");
+}
+
+#cf1_image:hover {
+  background-image:url("../images/tablee13.png");
+}
+#cf2_image {
+  margin:0 auto;
+  height:330px;
+  transition: background-image 1s ease-in-out;
+  background-image:url("../images/tablee21.png");
+}
+
+#cf2_image:hover {
+  background-image:url("../images/tablee23.png");
+}
+#cf3_image {
+  margin:0 auto;
+  height:330px;
+  background-repeat: no-repeat;
+  transition: background-image 1s ease-in-out;
+  background-image:url("../images/tablee31.png");
+}
+
+#cf3_image:hover {
+  background-image:url("../images/tablee33.png");
+}
+#cf4_image {
+  margin:0 auto;
+  height: 300.59px;
+  background-size: 399.9786290206458px 300.59px;
+  background-repeat: no-repeat;
+   background-position: center;
+  transition: background-image 1s ease-in-out;
+  background-image:url("../images/tablee41.png");
+}
+
+#cf4_image:hover {
+  background-image:url("../images/tablee43.png");
+}
+#cf5_image {
+  margin:0 auto;
+  height: 300.59px;
+  background-size: 332.8681215538756px 300.59px;
+  background-repeat: no-repeat;
+   background-position: center;
+  transition: background-image 1s ease-in-out;
+  background-image:url("../images/tablee51.png");
+}
+
+#cf5_image:hover {
+  background-image:url("../images/tablee53.png");
+}
+#cf6_image {
+  margin:0 auto;
+  height: 300.59px;
+  background-size: 377.541038px 300.59px;
+  background-repeat: no-repeat;
+  transition: background-image 1s ease-in-out;
+  background-position: center;
+  background-image:url("../images/tablee61.png");
+}
+
+#cf6_image:hover {
+  background-image:url("../images/tablee63.png");
+}
+#cf7_image{
+  margin:0 auto;
+  height:330px;
+}
+.big{
+    width:400px; 
+}
+.big img{
+    transform:scale(1,1);transition: all 1s ease-out;
+}
+.big img:hover{
+    transform:scale(1.2,1.2);
+}
+
