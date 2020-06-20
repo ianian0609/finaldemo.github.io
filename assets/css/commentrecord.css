@@ -1,0 +1,48 @@
+.list{
+margin-top: 50px;
+text-align: center;
+font-family:"微軟正黑體";
+font-weight: bold;
+}
+.list table{
+width: 100%;
+text-align: center;
+font-size: 30px;
+border-collapse: collapse;
+}
+.list td{
+border: 3px solid black;
+}
+.list td:hover{
+background-color:#AAAAAA;
+font-size: 120%;
+}
+.formtitle{
+width: 20%;
+font-size: 40px;
+font-weight: bold;
+font-family: "微軟正黑體";
+margin: 50px 43.5% 0px;
+}
+hr{
+border: 0px;
+height: 4px;
+width: 45%;
+background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+}
+form{
+border: 3px solid black;
+margin: 50px 100px 100px 100px;
+}
+form table{
+margin: 100px 100px 100px 423px;
+width: 50%;
+border-collapse: collapse;
+text-align: center;
+font-size: 20px;
+font-weight: bold;
+font-family: "微軟正黑體";
+}
+form table td{
+border: 3px solid black;
+}
