@@ -1,0 +1,60 @@
+.list{
+margin-top: 50px;
+text-align: center;
+font-family:"微軟正黑體";
+font-weight: bold;
+}
+.list table{
+width: 100%;
+text-align: center;
+font-size: 30px;
+border-collapse: collapse;
+}
+.list td{
+border: 3px solid black;
+}
+.register form{
+margin: 50px 100px 100px 100px;	
+padding-left:30%;
+padding-top: 10px;
+padding-bottom: 10px;
+font-size: 20px;
+font-weight: bold;
+border: 3px solid;
+font-family: "微軟正黑體";
+}
+.register form input{
+margin-top: 20px;
+margin-left: 10px;
+width: 50%;
+}
+.register input:focus {
+  border: 3px solid #555;
+}
+.register button{
+	text-align: center;
+	border-radius: 20px;
+	padding: 20px;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+	background-color: black; 
+	margin-left: 21%;
+}
+.formtitle{
+	padding-left: 10px;
+	font-size: 40px;
+	font-weight: bold;
+	font-family: "微軟正黑體";
+	margin: 50px 45% 0px;		
+}
+hr{
+	border: 0px;
+height: 4px;
+width: 45%;
+background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+}
+.list td:hover{
+	background-color:#AAAAAA;
+	font-size: 120%;
+}
