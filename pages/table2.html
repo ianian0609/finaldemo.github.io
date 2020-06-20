@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<script src="https://kit.fontawesome.com/0ebdd1e40e.js" crossorigin="anonymous"></script>
+		<script language=javascript>
+			function inpic1() { document.mypic.src=document.n1.src }
+			function inpic2() { document.mypic.src=document.n2.src }
+		</script>
+		<link rel="stylesheet" type="text/css" href="../assets/css/table2.css">
+		<link rel="stylesheet" type="text/css" href="../assets/css/fixed.css">
+		<title></title>
+	</head>
+	<body>
+		<div class="head">
+			<div class="title">
+				<img src="../assets/images/title.png">
+			</div>
+			<div class="title2">
+				<a href="../index.html" style="text-decoration: none; color:white;">九日電痲雞</a>
+			</div>
+			<div class="nav">
+				<ul>
+					<li><a href="../index.html #hot" style=" color: white; text-decoration: none;">熱門商品</a></li>
+					<li>
+						<div class="dropdown">
+							<button class="dropbtn">購物中心</button>
+							<div class="dropdown-content">
+								<a href="shop.html">購物中心</a>
+								<a href="search.html">訂單查詢</a>
+							</div>
+						</div>
+					</li>
+					<li><a href="member.html" style=" color: white; text-decoration: none;">會員中心</a></li>
+					<li><a href="aboutus.html" style=" color: white; text-decoration: none;">關於我們</a></li>
+					<li><a href="shoppingcar.html" style=" color: white; text-decoration: none;">購物車</a></li>
+					<li><button onclick="document.getElementById('id01').style.display='block'" style="width:100%;background-color:black;
+						color:white;padding:0px 0px 0px 50px;border: none;cursor: pointer; font-size: 20px; font-weight: bold; font-family:Microsoft JhengHei; ">登入</button>
+						<div id="id01" class="modal">
+							
+							<form class="modal-content animate" action="/action_page.php" method="post" style="background-color: black;">
+								<div class="imgcontainer">
+									<span onclick="document.getElementById('id01').style.display='none'" class="close" title="" style="color: white;">&times;</span>
+									<img src="../assets/images/title.png" alt="Avatar" class="avatar">
+								</div>
+								<div class="container2">
+									<label for="uname"><b>帳號</b></label>
+									<input type="text" placeholder="Enter Username" name="uname" required>
+									<label for="psw"><b>密碼</b></label>
+									<input type="password" placeholder="Enter Password" name="psw" required style="margin-bottom: 100px;">
+									<button type="submit" style="border: 3px solid white; border-radius: 20px; width: 20%; margin-left: 39%; padding:	20px;font-size: 20px;font-weight: bold; font-family:Microsoft JhengHei;">登入</button>&nbsp;&nbsp;
+									<label>
+										<input type="checkbox" checked="checked" name="remember"> 記住我
+									</div>
+								</form>
+							</div>
+							<script>
+							// Get the modal
+							var modal = document.getElementById('id01');
+							// When the user clicks anywhere outside of the modal, close it
+							window.onclick = function(event) {
+							if (event.target == modal) {
+							modal.style.display = "none";
+							}
+							}
+						</script></li>
+					</ul>
+				</div>
+			</div>
+			<div  class="main">
+				<div>
+					<div  class="goodsimg">
+						<img class="aaa" src="../assets/images/chip.png" name="mypic" id="mypic">
+					</div>
+					
+					<div class="fff">
+						<div class="ccc">
+							<button id="num-min" class="num-min">-</button>
+							<input id="input-num"type="text" class="input-num"  value="1" style="width:30px;height:15px;" name = "amount" readonly>
+							<button id="num-plus" class="num-plus">+</button>
+						</div>
+						<div class="eee">
+							<button class="ddd">加入購物車</button>
+							<button class="ddd">馬上購買</button>
+						</div>
+					</div>
+				</div>
+				<div class="goodsint">
+					<div class="goodsname">
+						<p class="biggerp">陶瓷籌碼(圓)<br>
+							<span class="wrongprice">$700</span><span class="rightprice">$350</span></p>
+						</div>
+						<div class="goodsintro">
+							<i class="far fa-thumbs-up"></i>顏 色 : 7種面額顏色<br>
+							<i class="far fa-thumbs-up"></i>規 格 : 39mm、重量10g 、20片裝<br>
+							<i class="far fa-thumbs-up"></i>材 質 : 陶瓷<br>
+							<i class="far fa-thumbs-up"></i>萬一掉入電動麻將桌內不會有導致故障並可待牌局結束後再取出籌碼，不會影響牌局需中止掃興的尷尬情形發生。<br>
+							<i class="far fa-thumbs-up"></i>方便零籌下注<br>
+							<i class="far fa-thumbs-up"></i>7種面額顏色以利清楚分辨<br>
+							<i class="far fa-thumbs-up"></i>手握舒適<br>
+							<i class="far fa-thumbs-up"></i>方便收納<br>
+							<i class="far fa-thumbs-up"></i>防掉漆設計<br>
+							<i class="far fa-thumbs-up"></i>防潑水設計<br>
+							<i class="far fa-thumbs-up"></i>紫外線殺菌<br>
+						</div>
+					</div>
+				</div>
+				<div class="ratediv">
+					<div class="rateint">
+						評分區
+						<hr class="style-two">
+					</div>
+					<div class="rating"> <!--星星評分-->
+					<input type="radio" id="star5" name="rating" value="5" hidden>
+					<label for="star5"></label>
+					<input type="radio" id="star4" name="rating" value="4" hidden>
+					<label for="star4"></label>
+					<input type="radio" id="star3" name="rating" value="3" hidden>
+					<label for="star3"></label>
+					<input type="radio" id="star2" name="rating" value="2" hidden>
+					<label for="star2"></label>
+					<input type="radio" id="star1" name="rating" value="1" hidden>
+					<label for="star1"></label>
+				</div>
+				<div>
+					<form>
+						<textarea name="memo" cols="60" rows="7" wrap="hard"> </textarea><br>
+						<input class="biggerbutton" type="submit" name="send" value="送出" style="background-color: black;color:white;border-radius: 5px;font-family:Microsoft JhengHei;">
+						<input class="biggerbutton1" type="reset" name="rewrite" value="重寫"  style="background-color: black;color:white;border-radius: 5px;font-family:Microsoft JhengHei;">
+					</form>
+				</div>
+				<div class="rateint1">
+					留言區
+					<hr class="style-two">
+				</div>
+				<div class="commontname">
+					lts_0609:
+				</div>
+				<div class="commontint">
+					以前一將都打2小時，現在有了他2分鐘就打完了，提升了我不少效率!推推
+				</div>
+			</div>
+			<div class="footer">
+				<div class="nav2">
+					<ul>
+						<li><a href="../index.html #hot" style=" color: white;text-decoration: none;">熱門商品</a></li>
+						<li><a href="shop.html" style=" color: white;text-decoration: none;">購物中心</a></li>
+						<li><a href="member.html" style=" color: white;text-decoration: none;">會員中心</a></li>
+						<li><a href="aboutus.html" style=" color: white;text-decoration: none;">關於我們</a></li>
+						<li><a href="search.html" style=" color: white;text-decoration: none;">訂單查詢</a></li>
+						<li><a href="shoppingcar.html" style=" color: white;text-decoration: none;">購物車</a></li>
+					</ul>
+					
+					<br><br>
+					<div class="contact">
+						聯絡我們<br><br>
+						電話 : 0948561287<br>
+						E-mail : dcc@gmail.com<br>
+						地址 : 新北市三重區重陽路三段103號<br><br>
+						© 2019 EASTKING
+					</div>
+				</div>
+			</div>
+			<script>
+				var num_plus = document.getElementById("num-plus");
+				var num_min = document.getElementById("num-min");
+				var input_num = document.getElementById("input-num");
+				num_plus.onclick = function() {
+					input_num.value = parseInt(input_num.value) + 1;
+				}
+				num_min.onclick = function() {
+				if(input_num.value <= 1) {
+					input_num.value = 1;
+				}
+				else{
+					input_num.value = parseInt(input_num.value) - 1;
+				}
+			}
+			</script>
+		</body>
+	</html>
