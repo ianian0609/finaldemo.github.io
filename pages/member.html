@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../assets/css/member.css">
+		<link rel="stylesheet" type="text/css" href="../assets/css/fixed.css">
+
+
+
+	</head>
+	<body>
+		<div class="head">
+			<div class="title">
+				<img src="../assets/images/title.png">
+			</div>
+			<div class="title2">
+				<a href="../index.html" style="text-decoration: none; color:white;">九日電痲雞</a>
+			</div>
+			<div class="nav">
+				<ul>
+					<li><a href="../index.html #hot" style=" color: white; text-decoration: none;">熱門商品</a></li>
+					<li>
+					<div class="dropdown">
+					<button class="dropbtn">購物中心</button>
+					<div class="dropdown-content">
+					<a href="shop.html">購物中心</a>
+					<a href="search.html">訂單查詢</a>
+					</div>
+					</div>
+					</li>
+					<li><a href="member.html" style=" color: white; text-decoration: none;">會員中心</a></li>
+					<li><a href="aboutus.html" style=" color: white; text-decoration: none;">關於我們</a></li>
+					<li><a href="shoppingcar.html" style=" color: white; text-decoration: none;">購物車</a></li>
+					<li><button onclick="document.getElementById('id01').style.display='block'" style="width:100%;background-color:black;
+						color:white;padding:0px 0px 0px 50px;border: none;cursor: pointer; font-size: 20px; font-weight: bold; font-family:Microsoft JhengHei; ">登入</button>
+						<div id="id01" class="modal">
+							
+							<form class="modal-content animate" action="/action_page.php" method="post" style="background-color: black; width: 70%; padding: 0px;">
+								<div class="imgcontainer">
+									<span onclick="document.getElementById('id01').style.display='none'" class="close" title="" style="color: white;">&times;</span>
+									<img src="../assets/images/title.png" alt="Avatar" class="avatar">
+								</div>
+								<div class="container2">
+									<label for="uname"><b>帳號</b></label>
+									<input type="text" placeholder="Enter Username" name="uname" required>
+									<label for="psw"><b>密碼</b></label>
+									<input type="password" placeholder="Enter Password" name="psw" required style="margin-bottom: 100px;">
+									<button type="submit" style="border: 3px solid white; border-radius: 20px; width: 20%; margin-left: 39%; padding:	20px;font-size: 20px;font-weight: bold; font-family:Microsoft JhengHei;">登入</button>&nbsp;&nbsp;
+									<label>
+										<input type="checkbox" checked="checked" name="remember" style="margin: 0px;"> 記住我
+									</div>
+								</form>
+							</div>
+							<script>
+							// Get the modal
+							var modal = document.getElementById('id01');
+							// When the user clicks anywhere outside of the modal, close it
+							window.onclick = function(event) {
+							if (event.target == modal) {
+							modal.style.display = "none";
+							}
+							}
+						</script></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="list">
+			<table>
+				<tr>
+					<td>
+						<a href="member.html" style=" color: black;text-decoration: none;">註冊會員</a>
+					</td>
+					<td>
+						<a href="member2.html" style=" color: black;text-decoration: none;">修改資料</a>
+					</td>
+					<td>
+						<a href="shoppingrecord.html" style=" color: black;text-decoration: none;">消費紀錄</a>
+					</td>
+					<td>
+						<a href="commentrecord.html" style=" color: black;text-decoration: none;">評論與評分紀錄</a>
+					</td>
+				</tr>
+			</table>
+		</div>
+
+		<div class="formtitle">
+		註冊會員
+		</div>
+		<hr>
+		<div class="register">
+			<form method="post" action="">
+			
+				設定帳號 : <br>
+				<input type="text" name="username"><br><br>
+				設定密碼 : <br>
+				<input type="password" name="password"><br><br>
+				確認密碼 : <br>
+				<input type="password" name="password"><br><br>
+				姓名 : <br>
+				<input type="text" name="name" ><br><br>
+				身分證字號 : <br>
+				<input type="text" name="identity card" size="10"><br><br>
+				性別 : <br>
+				<input type="radio" name="sex" value="male" style="width: 20px;">男
+				<input type="radio" name="sex" value="female" style="width: 20px;">女
+				<br><br>
+				生日 : <br>
+				<input id="today" type="date"><br><br>
+				E-mail : <br>
+				<input type="email" name="email"><br><br>
+				電話 : <br>
+				<input type="tel" name="tel" size="10"><br><br>
+				<button type="submit">Submit</button><br>
+			</form>
+		</div>
+		<script>
+		let today = new Date().toISOString().substr(0, 10);
+		document.querySelector("#today").value = today;
+		</script>
+
+		<div class="footer">
+			<div class="nav2">
+				<ul>
+					<li><a href="../index.html #hot" style=" color: white;text-decoration: none;">熱門商品</a></li>
+					<li><a href="shop.html" style=" color: white;text-decoration: none;">購物中心</a></li>
+					<li><a href="member.html" style=" color: white;text-decoration: none;">會員中心</a></li>
+					<li><a href="aboutus.html" style=" color: white;text-decoration: none;">關於我們</a></li>
+					<li><a href="search.html" style=" color: white;text-decoration: none;">訂單查詢</a></li>
+					<li><a href="shoppingcar.html" style=" color: white;text-decoration: none;">購物車</a></li>
+				</ul>
+				
+				<br><br>
+				<div class="contact">
+				聯絡我們<br><br>
+				電話 : 0948561287<br>
+				E-mail : dcc@gmail.com<br>
+				地址 : 新北市三重區重陽路三段103號<br><br>
+				© 2019 EASTKING
+				</div>
+
+			</div>
+
+		</div>
+	</body>
+</html>
