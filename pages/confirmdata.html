@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../assets/css/confirmdata.css">
+		<link rel="stylesheet" type="text/css" href="../assets/css/fixed.css">
+		<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+		<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+		<script>
+		$(document).ready(function(){
+		$('input[type="radio"]').click(function(){
+		if($(this).attr("value")=="credit"){
+		$(".bS01").show();
+		}
+		else{
+			$(".bS01").hide();
+		}
+		
+		});
+		});
+		</script>
+	</head>
+	<body>
+		<div class="head">
+			<div class="title">
+				<img src="../assets/images/title.png">
+			</div>
+			<div class="title2">
+				<a href="../index.html" style="text-decoration: none; color:white;">九日電痲雞</a>
+			</div>
+			<div class="nav">
+				<ul>
+					<li><a href="../index.html #hot" style=" color: white; text-decoration: none;">熱門商品</a></li>
+					<li>
+						<div class="dropdown">
+							<button class="dropbtn">購物中心</button>
+							<div class="dropdown-content">
+								<a href="shop.html">購物中心</a>
+								<a href="search.html">訂單查詢</a>
+							</div>
+						</div>
+					</li>
+					<li><a href="member.html" style=" color: white; text-decoration: none;">會員中心</a></li>
+					<li><a href="aboutus.html" style=" color: white; text-decoration: none;">關於我們</a></li>
+					<li><a href="shoppingcar.html" style=" color: white; text-decoration: none;">購物車</a></li>
+					<li><button onclick="document.getElementById('id01').style.display='block'" style="width:100%;background-color:black;
+						color:white;padding:0px 0px 0px 50px;border: none;cursor: pointer; font-size: 20px; font-weight: bold; font-family:Microsoft JhengHei; ">登入</button>
+						<div id="id01" class="modal">
+							
+							<form class="modal-content animate" action="/action_page.php" method="post" style="background-color: black; width: 70%; padding: 0px;">
+								<div class="imgcontainer">
+									<span onclick="document.getElementById('id01').style.display='none'" class="close" title="" style="color: white;">&times;</span>
+									<img src="../assets/images/title.png" alt="Avatar" class="avatar">
+								</div>
+								<div class="container2">
+									<label for="uname"><b>帳號</b></label>
+									<input type="text" placeholder="Enter Username" name="uname" required>
+									<label for="psw"><b>密碼</b></label>
+									<input type="password" placeholder="Enter Password" name="psw" required style="margin-bottom: 100px;">
+									<button type="submit" style="border: 3px solid white; border-radius: 20px; width: 20%; margin-left: 39%; padding:	20px;font-size: 20px;font-weight: bold; font-family:Microsoft JhengHei;">登入</button>&nbsp;&nbsp;
+									<label>
+										<input type="checkbox" checked="checked" name="remember" style="margin: 0px;"> 記住我
+									</div>
+								</form>
+							</div>
+							<script>
+							// Get the modal
+							var modal = document.getElementById('id01');
+							// When the user clicks anywhere outside of the modal, close it
+							window.onclick = function(event) {
+							if (event.target == modal) {
+							modal.style.display = "none";
+							}
+							}
+						</script></li>
+					</ul>
+				</div>
+			</div>
+			<div class="step">
+				<table>
+					<tr>
+						<td >
+							Step 1 :<br>
+							放入購物車
+						</td>
+						<td>
+							Step 2 :<br>
+							登入會員
+						</td>
+						<td style="background-color: black;">
+							Step 3 :<br>
+							資料確認
+						</td>
+						<td>
+							Step 4 :<br>
+							購物完成
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="address">
+				<form action="" method="post">
+					<a href="https://www.google.com.tw/maps?hl=zh-TW&tab=rl" target="_blank"><img src="../assets/images/map.png"></a><br>
+					<div style="font-size: 20px; font-weight: bold;font-family:Microsoft JhengHei; margin-left: 24%;">地址 : </div><br>
+					<input type="text" name="address" class="addressinput">
+					<div style="font-size: 20px; font-weight: bold;font-family:Microsoft JhengHei; margin-left: 24%;">付款方式 : </div><br>
+					<input type="radio" name="paid" value="arrive"  style="margin-left: 25%;"><label style="font-size: 20px; font-weight: bold;font-family:Microsoft JhengHei;">貨到付款</label>
+					<input type="radio" name="paid"   value="credit" style="margin-bottom: 30px;"><label style="font-size: 20px; font-weight: bold;font-family:Microsoft JhengHei;">信用卡</label>
+					
+					<input type="text" name="code"  class="bS01 box bBW" >
+					
+					<br>
+					<input onclick="myFunction()" type="submit" value="Confirm"  style="text-align: center;border-radius: 20px;padding: 16px;font-size: 16px;font-weight: bold;color: white;background-color: black; margin-left: 48%; margin-bottom: 10px;">
+				</form>
+				<script>
+				function myFunction() {
+				alert("購物完成!");
+				}
+				</script>
+			</div>
+			<div class="footer">
+				<div class="nav2">
+					<ul>
+						<li><a href="../index.html #hot" style=" color: white;text-decoration: none;">熱門商品</a></li>
+						<li><a href="shop.html" style=" color: white;text-decoration: none;">購物中心</a></li>
+						<li><a href="member.html" style=" color: white;text-decoration: none;">會員中心</a></li>
+						<li><a href="aboutus.html" style=" color: white;text-decoration: none;">關於我們</a></li>
+						<li><a href="search.html" style=" color: white;text-decoration: none;">訂單查詢</a></li>
+						<li><a href="shoppingcar.html" style=" color: white;text-decoration: none;">購物車</a></li>
+					</ul>
+					<br><br>
+					<div class="contact">
+						聯絡我們<br><br>
+						電話 : 0948561287<br>
+						E-mail : dcc@gmail.com<br>
+						地址 : 新北市三重區重陽路三段103號<br><br>
+						© 2019 EASTKING
+					</div>
+				</div>
+			</div>
+		</body>
+	</html>
