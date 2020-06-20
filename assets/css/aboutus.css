@@ -1,0 +1,134 @@
+body{
+    margin: 0px;
+    font-family: "微軟正黑體";
+    font-weight: bold;
+}
+
+.footer{
+font-size: 20px;
+height: 350px;
+background-color:black;
+font-family:"微軟正黑體";
+font-weight: bold;
+}
+.nav2{
+margin-left: 21.5%;
+height: 20%;
+text-align: center;
+}
+.nav2 ul{
+height: 100%;
+}
+.nav2 li{
+float: left;
+list-style-type:none;
+padding: 10px 10px 10px 70px;
+color: white;
+margin-top:30px;
+text-align: center;
+}
+.contact{
+height: 100%;
+color: white;
+margin-left: -390px;
+}
+
+.main{
+    width: 1200px;
+    height: 1600px;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-style: solid;
+}
+.person{
+    height: 25%;
+    display: flex;
+}
+.personphoto{
+    width: 264px;
+}
+.personphoto img{
+    width: 216px;
+    padding-top:80px;
+    padding-bottom:80px;
+    padding-left: 40px;
+    margin: 0;
+}
+.personname{
+    font-family: "微軟正黑體";
+    font-size:20px;
+    font-weight: bold;
+    padding-top:80px;
+    padding-bottom:80px;
+    padding-left: 20px;
+}
+.bigname{
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.persontalk1{
+    font-family: "微軟正黑體";
+    padding-top: 100px;
+    padding-left: 150px;
+}
+
+.talkbubble {
+  width: 350px; height: 180px;
+  position: relative;
+  border-style: solid;
+  border-radius: 10px;
+  margin-left:20px;
+  font-size: 18px;
+  padding: 7px;
+  opacity: 1;
+}
+.talkbubble:before {
+    content: "";
+    position: absolute;
+    top: 50%;                        
+    margin-top: -15px;               
+    left:-30px;
+    border: solid 15px transparent;
+    border-right-color: #FFF;
+    z-index: 1;
+}
+
+
+.dialog-box {
+        position: relative;
+    }
+        span {
+          width:0; 
+          height:0; 
+          font-size:0; 
+          overflow:hidden; 
+          position:absolute;
+      }
+          .bot{
+            border-width: 18px; 
+            border-style: solid dashed dashed; 
+            border-color: transparent  black transparent transparent; 
+            left: -15px; 
+            top: 81.5px;
+          }
+
+.persontalk2{
+    font-family: "微軟正黑體";
+    padding-top: 100px;
+    padding-left: 150px;
+}
+.persontalk3{
+    font-family: "微軟正黑體";
+    padding-top: 100px;
+    padding-left: 150px;
+}
+.persontalk4{
+    font-family: "微軟正黑體";
+    padding-top: 100px;
+    padding-left: 150px;
+}
+
+    
